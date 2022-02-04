@@ -1,0 +1,80 @@
+/* :root are the attributes*/
+:root {
+--green1: #D9ED92;
+--green2: #B5E48C;
+--green3: #99D98C;
+--green4: #76C893;
+--green5: #52B69A;
+--blue1: #34A0A4;
+--blue2: #168AAD;
+--blue3: #1A759F;
+--blue4: #1E6091;
+--blue5: #184E77;
+}
+/*Changing the color of text selection*/
+::-moz-selection {
+/* Code for Firefox */
+color: white;
+background: var(--green4);
+}
+/*Changing the color of text selection*/
+::selection {
+/* Code for the other browser*/
+color: white;
+background: var(--green4);
+}
+
+html {
+font-size: 62.5%;
+box-sizing: border-box;
+/*
+scroll-snap-type: y mandatory;
+scroll-behavior:smooth;*/
+/*Smooth scroll effect without using javascript*/
+}
+
+/**Scroll Snaps**/
+/*
+.title,
+.about-me,
+.skills,
+.leadership,
+.form,
+.footer {
+scroll-snap-align: center;
+scroll-snap-stop: always;
+}
+*/
+
+/*Box Model code snippet*/
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+
+body {
+font-size: 16px; /* 1rem = 10px*/
+font-family: "Spectral", serif;
+background-color:var(--green3);
+
+margin: 0px;
+color: white;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
+  
+  
+  
+  
