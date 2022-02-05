@@ -125,16 +125,17 @@
   
   /**TOP IMAGE**/
   .top-image {
-    background-image: url(../img/bg2.jpg);
+    background-image: url(../img/bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100px;
+    background-position: center;
+    height: 200px;
     position: relative;
   }
   
   .top-image__content {
     position: absolute;
-    max-width: 100%;
+    width: 100%;/*By using width instead of max-width not only the word is covered by the grey color, but the whole image*/
     height: 100%;
     display: flex;
     flex-direction: column;
