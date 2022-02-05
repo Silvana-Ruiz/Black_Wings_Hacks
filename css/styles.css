@@ -231,7 +231,7 @@ span {
 .footer {
   background-color: var(--red);
   padding-top: 2rem;
-  padding-bottom: auto;
+  padding-bottom: 2rem;
 }
 
 .socialmedia {
@@ -254,6 +254,5 @@ span {
 @media (min-width: 768px){
     .socialmedia {
       margin-left: 6rem;
-    
     }
 }
