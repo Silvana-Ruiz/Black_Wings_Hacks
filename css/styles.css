@@ -1,27 +1,24 @@
 /* :root are the attributes*/
 :root {
-  --green1: #d9ed92;
-  --green2: #b5e48c;
-  --green3: #99d98c;
-  --green4: #76c893;
-  --green5: #52b69a;
-  --blue1: #34a0a4;
-  --blue2: #168aad;
-  --blue3: #1a759f;
-  --blue4: #1e6091;
-  --blue5: #184e77;
+  --bluegrey: #525564;
+  --grey: #758390;
+  --blue: #96c0cd;
+  --lightgrey: #beb9b5;
+  --red: #c35b56;
+  --pale: #fff6eb;
+  
 }
 /*Changing the color of text selection*/
 ::-moz-selection {
   /* Code for Firefox */
   color: white;
-  background: var(--green4);
+  background: var(--blue);
 }
 /*Changing the color of text selection*/
 ::selection {
   /* Code for the other browser*/
   color: white;
-  background: var(--green4);
+  background: var(--blue);
 }
 
 html {
@@ -33,19 +30,6 @@ scroll-behavior:smooth;*/
   /*Smooth scroll effect without using javascript*/
 }
 
-/**Scroll Snaps**/
-/*
-.title,
-.about-me,
-.skills,
-.leadership,
-.form,
-.footer {
-scroll-snap-align: center;
-scroll-snap-stop: always;
-}
-*/
-
 /*Box Model code snippet*/
 *,
 *:before,
@@ -56,7 +40,7 @@ scroll-snap-stop: always;
 body {
   font-size: 16px; /* 1rem = 10px*/
   font-family: "Spectral", serif;
-  background-color: var(--green3);
+  background-color: var(--pale);
 
   margin: 0px;
   color: white;
@@ -71,35 +55,54 @@ h3 {
   margin-bottom: 1rem;
 }
 
-/**NAVIGATION**/
-.navigation {
-  background-color: #1a759f9c;
-  padding: 1rem;
+/**Header**/
+header h1 {
+  color: var(--red);
+  font-size: 5rem;
+  text-align: left;
+  margin-left: 5rem;
+  margin-top: 0rem;
+  margin-bottom:0rem;
 }
 
-.navigation__link {
-  display: block;
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  font-size: 2.1rem;
-  font-weight: normal;
-  padding: 1rem;
-  
+span {
+  color: black;
+  font-size:3rem;
 }
+
+/**NAVIGATION**/
+.navigation {
+  margin-top: 4rem;
+}
+
 .menu {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  
+  
+}
+.navigation__link {
+  display: block;
+  text-align:center;
+  color: var(--red);
+  text-decoration: none;
+  font-size: 2.1rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
   .menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    
   }
-  .button {
-    width: auto;
+  .navigation__link {
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
+
+  
 }
