@@ -3,10 +3,9 @@
   --bluegrey: #525564;
   --grey: #758390;
   --blue: #96c0cd;
-  --lightgrey: #beb9b5;
+  --lightgrey: #b3afad;
   --red: #c35b56;
   --pale: #fff6eb;
-  
 }
 /*Changing the color of text selection*/
 ::-moz-selection {
@@ -62,12 +61,12 @@ header h1 {
   text-align: center;
   margin-left: 5rem;
   margin-top: 2rem;
-  margin-bottom:0rem;
+  margin-bottom: 0rem;
 }
 
 span {
   color: black;
-  font-size:2rem;
+  font-size: 2rem;
 }
 
 /**NAVIGATION**/
@@ -77,9 +76,7 @@ span {
 
 .menu {
   display: flex;
-  justify-content:space-around;
-  
-  
+  justify-content: space-around;
 }
 .navigation__link {
   color: var(--red);
@@ -95,7 +92,6 @@ span {
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 2rem;
-    
   }
   .navigation__link {
     margin-left: 3rem;
@@ -107,12 +103,12 @@ span {
     text-align: left;
     margin-left: 5rem;
     margin-top: 0rem;
-    margin-bottom:0rem;
+    margin-bottom: 0rem;
   }
-  
+
   span {
     color: black;
-    font-size:3rem;
+    font-size: 3rem;
   }
 }
 
@@ -123,7 +119,6 @@ span {
   background-size: cover;
   height: 550px;
   position: relative;
-  
 }
 
 .top-image__content {
@@ -136,8 +131,7 @@ span {
   background-color: rgba(235, 222, 222, 0.445);
 }
 
-@media (min-width: 768px){
-  
+@media (min-width: 768px) {
   .top-image__content h1 {
     margin-top: 10rem;
     text-align: left;
@@ -150,5 +144,47 @@ span {
   }
   .top-image__content-margin {
     margin-left: 10rem;
+  }
+}
+
+/**Careers**/
+.careers {
+  background-color: #beb9b5;
+}
+
+.careers h1 {
+  margin-top: 0rem;
+  padding-top: 4rem;
+  padding-bottom:2rem;
+  color: var(--bluegrey);
+}
+
+
+
+@media (min-width: 678px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*2 columns of 50% each*/
+    column-gap: 1rem;
+    grid-template-rows: 2;
+  }
+
+  .grid__career {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .grid img {
+    max-width: 60%;
+    margin-bottom: 1rem;
+    max-height: 250px;
+  }
+
+  .grid__career--name {
+    font-size: 2.2rem;
+    color: black;
+    margin-bottom:3rem;
   }
 }
