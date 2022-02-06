@@ -126,11 +126,16 @@
 
   /**REGISTRATION**/
   
-/**Email Form**/
+.registration {
+  background-color: var(--blue);
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
 .registration h1 {
-    color:var(--bluegrey);
+    color:var(--darkgrey);
     margin-top:2rem;
     margin-bottom:2rem;
+    
 }
 
 .form {
@@ -140,6 +145,7 @@
     padding: 2rem;
     border-radius: 1rem;
     margin-bottom: 5rem;
+    color:white;
   }
   
   /*Deletes the border around the form*/
@@ -236,6 +242,13 @@
   .align-right {
     justify-content: flex-end;
   }  
+
+
+  /**Choose file button**/
+  .choosefile {
+    margin-top:1rem;
+    margin-left: 2rem;
+  }
 
   /**FOOTER**/
   .footer {
