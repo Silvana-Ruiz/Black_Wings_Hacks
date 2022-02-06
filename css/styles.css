@@ -263,3 +263,28 @@ span {
       margin-left: 6rem;
     }
 }
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  column-gap: 3rem;
+  grid-template-rows: 2;
+}
+
+
+
+.grid__categories {
+  display:flex;
+  flex-direction: column;
+
+}
+
+.grid__categories p {
+  margin-bottom:0.3rem;
+  margin-top: 1rem;
+  
+}
+
+.footer p {
+  font-size: 1.8rem;
+}
