@@ -23,6 +23,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  
   /*
 scroll-snap-type: y mandatory;
 scroll-behavior:smooth;*/
@@ -43,6 +44,7 @@ body {
 
   margin: 0px;
   color: black;
+  
 }
 
 h1,
@@ -95,6 +97,14 @@ span {
   font-size: 2.1rem;
   font-weight: normal;
   margin-bottom: 1rem;
+}
+
+.navigation__link:hover {
+  color:var(--red);
+}
+
+.navigation__link:active {
+  color:var(--grey);
 }
 
 @media (min-width: 768px) {
@@ -287,4 +297,10 @@ span {
 
 .footer p {
   font-size: 1.8rem;
+}
+
+.grid__categories .navigation__link {
+  color: var(--black);
+  font-size: 2rem;
+  margin-top:1rem;
 }
