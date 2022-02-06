@@ -177,12 +177,12 @@ span {
   margin-top: 0rem;
   padding-top: 4rem;
   padding-bottom: 2rem;
-  color: var(--bluegrey);
+  color: black;
 }
 
 .grid__career img:hover {
   transform: scale(1.02);
-  cursor: pointer;
+ 
 }
 
 @media (min-width: 768px) {

@@ -169,6 +169,10 @@ header h1 {
 }
 
 /**PROFESSIONALS**/
+h1 {
+    font-weight:bold;
+}
+
 .card-img-top {
     max-width: auto;
     
