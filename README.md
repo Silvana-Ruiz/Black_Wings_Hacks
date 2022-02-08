@@ -1,2 +1,3 @@
-# Black_Wings_Hacks
-Project for Black Wing Hacks Hackathon.
+# KinConnect
+Second Place Winner Project for Black Wing Hacks Hackathon.
+
